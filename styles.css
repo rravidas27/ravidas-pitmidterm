@@ -1,0 +1,548 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #220e5f;
+    --secondary-color: #220e5f;
+    --text-color: #333;
+    --background-color: #fff;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 15px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fa-solid{
+    margin-right: 5px;
+}
+.logo img {
+    width: 60px;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.social-icons,
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+
+.social-icons a {
+    color: #fff;
+    font-size: 14x;
+    margin-right: 15px;
+}
+.logo-section {
+    background-color: #fff;
+    color: #220e5f;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo-section {
+    background-color: #fff;
+    color: #220e5f;
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+    margin-right: 10px;
+}
+
+.university-name {
+    font-size: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav b {
+    color: #0e042c;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+.video-section {
+    margin-top: 20px;
+}
+
+video {
+    max-width: 1760px;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo-pics-section {
+    background-color: #f0f0f0;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.logo-pics-container {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-pics-container img {
+    max-width: 100px; 
+    margin: 0 10px; 
+}
+
+.about-ustp-header {
+    background-color: #220e5f; 
+    padding: 20px 20px; 
+    justify-content: flex-end;
+   
+}
+
+.about-ustp-nav {
+    text-transform: uppercase; 
+}
+
+.about-ustp-nav a {
+    color: #fff; 
+    text-decoration: none;
+    margin-left: auto; 
+}
+
+.additional-info-section {
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.additional-info-content {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+
+.additional-info-content p {
+    font-size: 16px;
+    margin-bottom: 100px; 
+}
+
+.learn-more-btn {
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.learn-more-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: #eec749;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.2s ease;
+}
+
+.learn-more-link:hover {
+    text-decoration-color: #220e5f;
+    background-color: #b39800;
+}
+
+.picture-section {
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.picture-content img {
+    max-width: 1760px; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.picture-button-section {
+    padding: 40px 20px;
+    background-color: #ffffff;
+}
+
+.picture-button-content {
+    max-width: 800px;
+    margin:  auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.picture-item {
+    text-align: center;
+    margin-right: 0;
+}
+
+.picture-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.picture-item img {
+    display: block;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.picture-item button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.picture-item button:hover {
+    background-color: #b39800;
+}
+
+.picture-button-section header {
+    text-align: center;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.picture-button-section h2 {
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.first-picture {
+    width: 1760px; 
+    height: auto; 
+}
+
+
+.preswholepic-section {
+    padding: 200px;
+    text-align: center;
+}
+
+.preswholepic-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.preswholepic-item,
+.pres2-item,
+.pres3-item {
+    margin-bottom: 20px;
+}
+
+.preswholepic-item img,
+.pres2-item img,
+.pres3-item img {
+    display: block;
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.pres3-item button {
+    background-color: #220e5f;
+    color: #e0a80d;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.ustp-campuses-section {
+    padding: 40px;
+    background-color: #0e042c; 
+}
+
+.section-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #220e5f;
+}
+
+.ustp-campuses-content {
+    display: flex;
+    justify-content: center;
+}
+
+.main-campus-section {
+    margin-top: 40px;
+    background-color: #0e042c;
+    text-align: center;
+}
+
+.section-header {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+
+.picture-section {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.picture-section img {
+    max-width: 100%;
+}
+
+.picture-details {
+    margin-left: 20px;
+}
+
+.picture-title {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.picture-paragraph {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.learn-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #220e5f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.2s ease;
+}
+
+.learn-more-button:hover {
+    background-color: #0056b3;
+}
+ 
+
+
+.major-campus-section {
+    margin-top: 40px;
+    background-color: #0e042c;
+    text-align: center;
+}
+
+.section-header {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.major-campus-section {
+    margin-top: 40px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.section-header {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+
+.picture2-section {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-align: center;
+}
+
+.picture2section img {
+    width: 50%;
+}
+
+.picture2-details {
+    margin-left: 20px;
+}
+
+.picture2-title {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.picture2-paragraph {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.learn-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #220e5f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.2s ease;
+}
+
+.learn-more-button:hover {
+    background-color: #0056b3;
+}
+
+
+
+.sattelite-campus-section {
+    margin-top: 40px;
+    background-color: #0e042c;
+    text-align: center;
+}
+
+.section-header {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.sattelite-campus-section {
+    margin-top: 40px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.section-header {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+
+.picture3-section {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.picture3section img {
+    max-width: 100%;
+}
+
+.picture3-details {
+    margin-left: 20px;
+}
+
+.picture3-title {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.picture3-paragraph {
+    margin-top: 10px;
+    line-height: 1.6;
+}
+
+.learn-more-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #220e5f;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.2s ease;
+}
+
+.learn-more-button:hover {
+    background-color: #0056b3;
+}
+
+.logos-section {
+    margin-top: 40px;
+    background-color: #e0a80d;
+    text-align: center;
+}
+
+.logos-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.logo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.logo-item img {
+    width: 100px;
+}
+
+.logo-name {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+
+footer {
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo img {
+    width: 30px;
+    margin-right: 10px;
+}
